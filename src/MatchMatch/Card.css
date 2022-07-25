@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px;
+  width: 200px;
+  height: 200px;
+  vertical-align: top;
+  cursor: pointer;
+}
+  
+  .card .not-opened {
+    border: 3px solid black;
+    height: 200px;
+    width:200px;
+    margin: 25px;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 25px;
+  }
+  
+  .card.matched {
+    cursor: pointer;
+  }
+  
+  .card img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+  }
+  
+  
