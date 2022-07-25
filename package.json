@@ -1,6 +1,6 @@
 {
   "name": "uk-xxx",
-  "homepage":"https://ursulakesek.github.io/uk-xxx",
+  "homepage": "https://ursulakesek.github.io/uk-xxx",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,7 +35,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
-    
-}
+    "gh-pages": "^4.0.0"
+  }
 }
